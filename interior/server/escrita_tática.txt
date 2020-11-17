@@ -1,0 +1,25 @@
+Embarcação{
+    src{
+        server.ts
+        controller{
+            EventoController.ts
+            PedidoController.ts
+        }
+        database{
+            migrations{
+                00_create_user.ts
+                01_create_pedido.ts
+                02_create_reserva.ts
+                03_create_connection.ts
+            }
+            connection.ts
+            database.sqlite
+        }
+        routes.ts
+    }
+
+
+
+
+
+}
